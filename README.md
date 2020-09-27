@@ -50,5 +50,6 @@ STEP 2. Open Java doc
 Open `target/site/apidocs/index.html`, it will show Java doc as well
 
 ## <a name="run-ords-by-docker">Run ORDS by Docker
-STEP 1. Clone [https://github.com/PhyrexTsai/docker-db-apex-dev/](https://github.com/PhyrexTsai/docker-db-apex-dev/) and run the step by on `README.md`
+STEP 1. Clone [https://github.com/PhyrexTsai/docker-db-apex-dev/](https://github.com/PhyrexTsai/docker-db-apex-dev/) and run the step by on `README.md`  
+
 STEP 2. Execute SQL and launch API by following [https://github.com/PhyrexTsai/docker-db-apex-dev/blob/master/ORDS.md](https://github.com/PhyrexTsai/docker-db-apex-dev/blob/master/ORDS.md)
