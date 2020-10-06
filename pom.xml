@@ -120,7 +120,7 @@
 			<artifactId>ords-adapter-boilerplate</artifactId>
 			<version>1.0.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/libs/ords-adapter-boilerplate-1.0.0.jar</systemPath>
+			<systemPath>${project.basedir}/src/main/resources/ords-adapter-boilerplate-1.0.0.jar</systemPath>
 		</dependency>
 	</dependencies>
 
