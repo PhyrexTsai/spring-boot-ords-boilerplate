@@ -1,10 +1,17 @@
 # Spring Boot ORDS Boilerplate
 
 ## Table of Content
+- [Technical Stack](#technical-stack)
 - [Build and Run](#build-and-run)
 - [Folder Structure](#folder-structure)
 - [Generate Java Doc](#generate-java-doc)
 - [Run ORDS by Docker](#run-ords-by-docker)
+- [Reference](#reference)
+
+## <a name="technical-stack"></a>Technical Stack
+- Spring framework
+- Java 8
+- Maven 3
 
 ## <a name="build-and-run"></a>Build and Run
 
@@ -53,3 +60,8 @@ Open `target/site/apidocs/index.html`, it will show Java doc as well
 STEP 1. Clone [https://github.com/PhyrexTsai/docker-db-apex-dev/](https://github.com/PhyrexTsai/docker-db-apex-dev/) and run the step by on `README.md`  
 
 STEP 2. Execute SQL and launch API by following [https://github.com/PhyrexTsai/docker-db-apex-dev/blob/master/ORDS.md](https://github.com/PhyrexTsai/docker-db-apex-dev/blob/master/ORDS.md)
+
+## <a name="reference"></a>Reference
+- Pack exteranl jar: https://medium.com/@webber.cheng/spring-boot-%E6%89%93%E5%8C%85-external-jar-%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-292d6e800df5
+- JSON Object mapping: https://www.baeldung.com/jackson-object-mapper-tutorial
+- JSONPath: https://www.itread01.com/content/1543681863.html
