@@ -18,7 +18,7 @@
 - Java 8
 - Maven 3
 
-## <a name="prerequisite"></a>Prerequisite
+## 🔗<a name="prerequisite"></a>Prerequisite
 - [ORDS Adapter Boilerplate](https://github.com/PhyrexTsai/ords-adapter-boilerplate): Please make sure to follow the step to generate `jar` file and follow the instruction before you run **Spring Boot ORDS Boilerplate**
 
 ## 📥<a name="include-third-party-library"></a>Include Third Party Library
