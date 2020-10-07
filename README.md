@@ -63,13 +63,15 @@ STEP 1. Run the command to generate Java doc
 mvn javadoc:javadoc
 ```
 
-STEP 2. Open Java doc
+STEP 2. Open Java doc  
 Open `target/site/apidocs/index.html`, it will show Java doc as well
 
 ## 💡<a name="run-ords-by-docker">Run ORDS by Docker
-STEP 1. Clone [https://github.com/PhyrexTsai/docker-db-apex-dev/](https://github.com/PhyrexTsai/docker-db-apex-dev/) and run the step by on `README.md`  
+STEP 1. Clone Repository    
+Clone [https://github.com/PhyrexTsai/docker-db-apex-dev/](https://github.com/PhyrexTsai/docker-db-apex-dev/) and run the step by on `README.md`  
 
-STEP 2. Execute SQL and launch API by following [https://github.com/PhyrexTsai/docker-db-apex-dev/blob/master/ORDS.md](https://github.com/PhyrexTsai/docker-db-apex-dev/blob/master/ORDS.md)
+STEP 2. Launch Instance  
+Execute SQL and launch API by following [https://github.com/PhyrexTsai/docker-db-apex-dev/blob/master/ORDS.md](https://github.com/PhyrexTsai/docker-db-apex-dev/blob/master/ORDS.md)
 
 ## 🗒<a name="reference"></a>Reference
 - Pack exteranl jar: https://medium.com/@webber.cheng/spring-boot-%E6%89%93%E5%8C%85-external-jar-%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-292d6e800df5
