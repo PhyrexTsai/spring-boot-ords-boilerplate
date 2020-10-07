@@ -46,6 +46,7 @@ Run local by `mvnw`, will start on [http://localhost:8081](http://localhost:8081
 
 STEP 4. View Swagger UI
 Open [http://localhost:8081/swagger-ui.html](http://localhost:8081/swagger-ui.html)
+![Swagger UI](./Swagger-UI.png)
 
 ## 📦<a name="folder-structure"></a>Folder Structure
 - aspect: Using AOP to log RESTful APIs information
