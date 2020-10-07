@@ -1,10 +1,12 @@
 # Spring Boot ORDS Boilerplate
 
 ## 🚀Overview
-Spring Boot ORDS Boilerplate is the middle ware provide API gateway and connect ORDS to fetch data from Oracle Database.
+**Spring Boot ORDS Boilerplate** is the middle ware provide API gateway and connect ORDS to fetch data from Oracle Database.
 
 ## 📚Table of Content
 - [Technical Stack](#technical-stack)
+- [Prerequisite](#prerequisite)
+- [Include Third Party Library](#include-third-party-library)
 - [Build and Run](#build-and-run)
 - [Folder Structure](#folder-structure)
 - [Generate Java Doc](#generate-java-doc)
@@ -15,6 +17,14 @@ Spring Boot ORDS Boilerplate is the middle ware provide API gateway and connect 
 - Spring framework
 - Java 8
 - Maven 3
+
+## <a name="prerequisite"></a>Prerequisite
+- [ORDS Adapter Boilerplate](https://github.com/PhyrexTsai/ords-adapter-boilerplate): Please make sure to follow the step to generate `jar` file and follow the instruction before you run **Spring Boot ORDS Boilerplate**
+
+## 📥<a name="include-third-party-library"></a>Include Third Party Library
+Before we run **Spring Boot ORDS Boilerplate**, please make sure that you have already 
+compile the `ords-adapter-boilerplate-1.0.0.jar` then put it under `/src/resources` and 
+remember updating the `pom.xml` to include the dependency
 
 ## 🏗<a name="build-and-run"></a>Build and Run
 
@@ -40,14 +50,11 @@ Open [http://localhost:8081/swagger-ui.html](http://localhost:8081/swagger-ui.ht
 ## 📦<a name="folder-structure"></a>Folder Structure
 - aspect: Using AOP to log RESTful APIs information
 - config: Define configuration, ex: swagger config
-- controller: Define RESTful APIs
-- converter: Convert controller request and response
-- entity: Object entity, Java bean
+- **controller**: Define API path, accept paramter and response
 - exception: Define exception
 - handler: Define handler, ex: exception handler
-- parameter: Define RESTful APIs Parameters such as request and response
-- service: Define business logic for controller usage
-- webclient: ORDS Web Client, provide CRUD RESTful APIs to Oracle Database
+- parameter: Define RESTful APIs parameters
+- **service**: Define business logic for controller usage
 
 ## 📑<a name="generate-java-doc"></a>Generate Java Doc
 
