@@ -28,7 +28,7 @@ remember updating the `pom.xml` to include the dependency
 
 ## 🏗<a name="build-and-run"></a>Build and Run
 
-STEP 1. Install dependancy:
+STEP 1. Install dependancy
 ```
 mvn install
 ```
